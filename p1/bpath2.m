@@ -1,4 +1,5 @@
-%BPATH2  Brownian path simulation: vectorized 
+% BPATH2  Brownian path simulation: vectorized 
+% by Nick Higham
 
 randn('state',100)          % set the state of randn
 T = 1; N = 500; dt = T/N;
